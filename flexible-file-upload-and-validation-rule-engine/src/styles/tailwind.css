@@ -1,0 +1,10 @@
+/* injecting Tailwind's base, components and utilities into our css */
+
+/* Normalize.css and additional base styles */
+@tailwind base;
+
+/* components, reusable styles like cards, form elements  */
+@tailwind components;
+
+/* inject tailwind's utility classes, based on tailwind.js (config) */
+@tailwind utilities;
